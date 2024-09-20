@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"
 	<title>Form</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css"
   </head>
   <body>
     <form method="get" action="null" autocomplete="on">
 	  <div id="container">
-	    <label for="name">Name</label>
-	    <input type="text" name=first_name" id="name" class="fontsize" placeholder="First" autocomplete="given-name">
 	    <label for="email">Email</label>
 	    <input type="email" name="email_data" id="email" class="fontsize">
+		
+		<label for="phone">Phone Number #</label>
+		<input type="tel" name="phone" id="phonenum" class="fontsize" placeholder="(###)-###-####" required autocomplete="tel">
+		
+		<label for="dob">Date of Birth</label>
+		<input type="date" name="dob" id="dob" class="fontsize" required autocomplete="birth date">
+		
 	    <div id="submit">
 	      <input type="submit" value="Submit">
 	    </div>
