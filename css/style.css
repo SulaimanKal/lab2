@@ -5,11 +5,12 @@ body {
   height: 100%;
   display: grid;
   align-items: center;
+  justify-content: center;
 }
 #container {
-	border: 2px  solid white;
+	border: 2px solid white;
 	padding: 30px;
-	background-color: rgba(255, 255, 245, 1.0)
+	background-color: rgba(255, 255, 245, 1.0);
 	border-radius: 10px;
 	box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 	width: 400px;
@@ -26,7 +27,7 @@ label {
   margin-bottom: 10px;
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
